@@ -1,0 +1,32 @@
+#root {
+  margin: 0 auto;
+}
+.external-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.searcher-container {
+  flex: 2;
+  width: 100%;
+}
+.form-control {
+  height: 25px;
+  width: 90%;
+}
+/* .button-sort {
+} */
+.download-container {
+  position: relative;
+}
+.download-buttons {
+  position: absolute;
+  right: 10px;
+  top: 21px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+/* .download-button {
+} */
